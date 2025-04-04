@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main() {
+	char fruit;
+
+	cout << "Press a for apple, b for banana, or c for cantaloupe" << endl;
+	cin >> fruit;
+
+	if (fruit == 'a')
+		cout << "here is your apple" << endl;
+
+	else if (fruit == 'b')
+		cout << "here is your banana" << endl;
+
+	else if (fruit == 'c')
+		cout << "here is your cantaloupe" << endl;
+}
